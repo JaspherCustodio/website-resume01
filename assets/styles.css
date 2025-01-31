@@ -51,6 +51,7 @@ body{
 
 .img-circle img{
     width: 140px;
+    position: relative;
 }
 
 p{
