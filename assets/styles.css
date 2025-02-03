@@ -21,47 +21,64 @@ body{
 
 .left{
     background-color: rgb(0, 0, 0);
-    width: 30%;
+    width: 25vw;
     height: 100vh;
     justify-content: center;
 }
 
 .left li{
     color: white;
+    font-size: 1.7vw;
+    margin-left: 50px;
 }
 
 .right{
     background-color: rgb(red, 0, 0);
-    width: 100%;
+    width: 75vw;
     height: 100vh;
 }
 
 .img-circle{
     margin: auto;
-    width: 40%;
-    height: 19%;
+    max-width: 190px;
+    max-height: 190px;
     padding-left: 8px;
     border-radius: 100px;
     background-color: white;
     justify-self: center;
-    position: relative;
-    top: 25px;
+    margin-top: 20px;
+    margin-bottom: 15px;
     overflow: hidden;
 }
 
 .img-circle img{
-    width: 140px;
+    width: 190px;
     position: relative;
 }
 
-p{
-    position: relative;
-    top: 30px;
+.info{
+    margin-bottom: 40px;
+}
+
+.name{
+    font-weight: bold;
+    font-size: 2.5vw;
+}
+
+.info-1{
+    font-size: 1.5vw;
+}
+
+.info p{
     text-align: center;
     color: white;
-    font-size: 25px;
     margin: auto;
 }
+
+.left-h1{
+    font-size: 4.3vh;
+}
+
 h1{
     margin-top: 45px;
     position: relative;
@@ -85,26 +102,44 @@ li{
     height: 50vh;
 }
 
+.box3{
+    width: 50%;
+}
+
 .box1,
 .box2, 
 .box3{
     background-color: white;
 }
 
-.title h1{
-    background-color: blue;
-    width: 250px;
-    height: 70px;
-    border-radius: 20px;
+.box1 ul{
+    list-style: none;
+}
+
+.title{
+    margin-top: 20px;
     display: flex;
     justify-content: center;
+}
+
+.title h1{
+    background-color: blue;
+    width: 260px;
+    height: 8vh;
+    border-radius: 20px;
+    margin: 0;
+    display: flex;
     align-items: center;
-    justify-self: center;
+    justify-content: center;
 }
 
 .bot{
     width: 100%;
-    height: 50%;
+    height: 50vh;
     display: flex;
     justify-content: center;
+}
+
+@media (max-width: 640px) {
+    
 }
