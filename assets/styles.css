@@ -28,7 +28,7 @@ body{
 
 .left li{
     color: white;
-    font-size: 1.7vw;
+    font-size: 24px;
     margin-left: 50px;
 }
 
@@ -62,11 +62,11 @@ body{
 
 .name{
     font-weight: bold;
-    font-size: 2.5vw;
+    font-size: 40px;
 }
 
 .info-1{
-    font-size: 1.5vw;
+    font-size: 26px;
 }
 
 .info p{
@@ -76,7 +76,7 @@ body{
 }
 
 .left-h1{
-    font-size: 4.3vh;
+    font-size: 32px;
 }
 
 h1{
@@ -114,6 +114,7 @@ li{
 
 .box1 ul{
     list-style: none;
+    margin-bottom: 24px;
 }
 
 .title{
@@ -124,8 +125,9 @@ li{
 
 .title h1{
     background-color: blue;
-    width: 260px;
-    height: 8vh;
+    width: 250px;
+    height: 80px;
+    font-size: 30px;
     border-radius: 20px;
     margin: 0;
     display: flex;
